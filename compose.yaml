@@ -1,0 +1,9 @@
+services:
+  postgres:
+    image: 'postgres:latest'
+    environment:
+      - 'POSTGRES_DB=smart_home_api'
+      - 'POSTGRES_PASSWORD=kmjp2003'
+      - 'POSTGRES_USER=postgres'
+    ports:
+      - '5432'
