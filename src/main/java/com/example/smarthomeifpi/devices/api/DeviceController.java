@@ -1,7 +1,7 @@
 package com.example.smarthomeifpi.devices.api;
 
+import com.example.smarthomeifpi.devices.app.dtos.DeviceDto;
 import com.example.smarthomeifpi.devices.app.entities.Device;
-import com.example.smarthomeifpi.places.app.Dtos.PlaceDto;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
@@ -18,11 +18,11 @@ public class DeviceController {
 
     @PostMapping("/devices")
     @ResponseStatus(HttpStatus.CREATED)
-    public void createNewDevice(PlaceDto placeDto){}
+    public void createNewDevice(DeviceDto deviceDto){}
 
     @PutMapping("/devices/{id}")
     @ResponseStatus(HttpStatus.ACCEPTED)
-    public void updateDevice(@PathVariable Long id, PlaceDto placeDto){}
+    public void updateDevice(@PathVariable Long id, DeviceDto deviceDto){}
 
     @DeleteMapping("/devices/{id}")
     @ResponseStatus(HttpStatus.ACCEPTED)
