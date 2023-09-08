@@ -1,8 +1,8 @@
-package com.example.smarthomeifpi.Places.App.UseCases;
+package com.example.smarthomeifpi.places.app.UseCases;
 
-import com.example.smarthomeifpi.Places.App.Dtos.PlaceDto;
-import com.example.smarthomeifpi.Places.App.Entities.Place;
-import com.example.smarthomeifpi.Places.App.Repositories.PlaceRepository;
+import com.example.smarthomeifpi.places.app.Dtos.PlaceDto;
+import com.example.smarthomeifpi.places.app.Entities.Place;
+import com.example.smarthomeifpi.places.app.Repositories.PlaceRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

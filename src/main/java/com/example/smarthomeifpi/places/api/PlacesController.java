@@ -1,9 +1,9 @@
-package com.example.smarthomeifpi.Places.Api;
+package com.example.smarthomeifpi.places.api;
 
-import com.example.smarthomeifpi.Places.App.Dtos.PlaceDto;
-import com.example.smarthomeifpi.Places.App.Entities.Place;
-import com.example.smarthomeifpi.Places.App.UseCases.CreateNewPlaceUseCase;
-import com.example.smarthomeifpi.Places.App.UseCases.ListPlacesUseCase;
+import com.example.smarthomeifpi.places.app.Dtos.PlaceDto;
+import com.example.smarthomeifpi.places.app.Entities.Place;
+import com.example.smarthomeifpi.places.app.UseCases.CreateNewPlaceUseCase;
+import com.example.smarthomeifpi.places.app.UseCases.ListPlacesUseCase;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

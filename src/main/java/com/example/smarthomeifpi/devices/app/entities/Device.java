@@ -1,4 +1,4 @@
-package com.example.smarthomeifpi.Places.App.Entities;
+package com.example.smarthomeifpi.devices.app.entities;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

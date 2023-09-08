@@ -1,5 +1,6 @@
-package com.example.smarthomeifpi.Places.App.Entities;
+package com.example.smarthomeifpi.places.app.Entities;
 
+import com.example.smarthomeifpi.rooms.app.entities.Room;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,4 +1,4 @@
-package com.example.smarthomeifpi.Places.App.Dtos;
+package com.example.smarthomeifpi.places.app.Dtos;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
