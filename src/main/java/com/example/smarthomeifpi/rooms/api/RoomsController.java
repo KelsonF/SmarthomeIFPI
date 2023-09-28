@@ -1,6 +1,7 @@
 package com.example.smarthomeifpi.rooms.api;
 
 import com.example.smarthomeifpi.places.app.Dtos.PlaceDto;
+import com.example.smarthomeifpi.rooms.app.dtos.RoomDto;
 import com.example.smarthomeifpi.rooms.app.entities.Room;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
@@ -20,7 +21,7 @@ public class RoomsController {
 
     @PutMapping("/rooms/{id}")
     @ResponseStatus(HttpStatus.OK)
-    public void updateRoom(@PathVariable Long id, PlaceDto placeDto){}
+    public void updateRoom(@PathVariable Long id, RoomDto roomDto){}
 
     @DeleteMapping("/rooms/{id}")
     @ResponseStatus(HttpStatus.ACCEPTED)
